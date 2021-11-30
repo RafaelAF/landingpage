@@ -213,7 +213,6 @@
     .menu {
         display: none;
     }
-
     .close-menu-label::after {
         content: '≡';
         position: fixed;
@@ -241,5 +240,22 @@
 
     .menu-spacing {
         display: none;
+    }
+    
+}
+@media (max-width: 550px) {
+    .responsive-table{
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .form-grid input,
+    .form-grid textarea{
+        width: 90%;
+    }
+    .top3-content h2{
+        font-size: 4.5rem;
+    }
+    .intro-text-content h2{
+        font-size: 4.5rem;
     }
 }
